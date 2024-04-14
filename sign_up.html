@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP FORM</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <form>
+    <div id="box">
+        <h1 id="signup" style=text-align:center; > SIGN UP</h1>
+        <p id="para" style=text-align:center;>Please fill all the details in this form to create an account.</p> 
+        <hr>
+    <div id="namebox">
+        <div>
+            <label for="name">
+                <b>Name:</b>
+            </label>
+        </div>
+       <div>
+            <input type="text" id="customername" placeholder="Enter your name" size="40" required>
+            <br>
+            <br>
+        <p id="ename"></p>
+       </div>
+    </div>
+    <div id="namebox">
+    <div>
+        <label for="email">
+            <b>Email:</b>
+        </label>
+    </div>
+    <div>
+        <input type="email" id="usermail" placeholder="Enter your Email" name="usermail" size="40" required>
+        <br>
+        <br>
+    </div>
+    </div>
+    <div>
+        <p id="eemail"></p>
+    </div>
+    <div id="namebox">
+    <div>
+        <label for="pwd">
+            <b>Password:</b>
+        </label>
+    </div>
+    <div>
+        <input type="password" id="userpwd" placeholder="Enter your password" name="userpwd" size="40" required>
+        <br>
+        <br>
+    </div>
+    </div>
+    <div>
+        <p id="epassword"></p>
+    </div>
+     <div id="namebox">
+     <div>
+        <label for="c_pwd">
+            <b>Confirm Password:</b>
+        </label>
+    </div>
+    <div>
+        <input type="text" id="c_userpwd" placeholder="Re-type your password" name="c_userpwd" size="40" required>
+        <br>
+        <br>
+    </div>
+    </div>
+    <div>
+        <p id="ecpassword"></p>
+    </div>
+    <div id="buttonstyle">
+      <button type="button" id="sign_up" onclick="successfully()">Sign up</button>
+        <button type="button" id="sign_up" onclick="Cancel()">Cancel</button>
+    </div>
+</div>
+</form>
+<script type="text/javascript" src="sign_up.js"></script>
+</body>
+        </html>
